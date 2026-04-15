@@ -1,4 +1,4 @@
-name: Deploy Astro site to Pages
+name: Deploy Astro site to GitHub Pages
 on:
   push:
     branches: [ main ]
@@ -15,6 +15,7 @@ concurrency:
 
 jobs:
   build:
+    name: Build Astro site
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -40,6 +41,7 @@ jobs:
         with:
           path: ./dist
   deploy:
+    name: Deploy to GitHub Pages
     needs: build
     runs-on: ubuntu-latest
     environment:
