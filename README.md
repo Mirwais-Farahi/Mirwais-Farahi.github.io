@@ -10,7 +10,6 @@ This repository contains a GitHub Pages-ready personal portfolio for a data scie
 |-- about.html
 |-- projects.html
 |-- research.html
-|-- experience.html
 |-- skills.html
 |-- resume.html
 |-- contact.html
