@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#f4f8f8"/><rect x="36" y="36" width="568" height="288" rx="28" fill="#0c1b26"/>
+  <g fill="#d8f3f1"><rect x="92" y="88" width="160" height="184" rx="20"/><rect x="280" y="88" width="264" height="84" rx="20" fill="#143040"/><rect x="280" y="188" width="264" height="84" rx="20" fill="#143040"/></g>
+  <g fill="#0f8c8c"><rect x="118" y="124" width="108" height="10" rx="5"/><rect x="118" y="152" width="82" height="10" rx="5"/><rect x="118" y="180" width="96" height="10" rx="5"/><rect x="308" y="116" width="86" height="86" rx="16"/><rect x="412" y="116" width="104" height="14" rx="7"/><rect x="412" y="146" width="86" height="14" rx="7"/><rect x="308" y="216" width="208" height="14" rx="7"/><rect x="308" y="246" width="164" height="14" rx="7"/></g>
+  <text x="92" y="74" fill="#ffffff" font-family="IBM Plex Sans, Arial, sans-serif" font-size="26" font-weight="700">Research Data Analysis</text>
+</svg>
