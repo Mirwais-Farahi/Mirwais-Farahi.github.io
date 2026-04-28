@@ -65,3 +65,53 @@ document.querySelectorAll(".contact-form").forEach((form) => {
     }
   });
 });
+
+const articleCards = Array.from(document.querySelectorAll("[data-article-card]"));
+const articleSearch = document.querySelector("[data-article-search]");
+const articleType = document.querySelector("[data-article-type]");
+const articleStatus = document.querySelector("[data-article-status]");
+const articleCategoryButtons = Array.from(document.querySelectorAll("[data-article-category]"));
+const articleCount = document.querySelector("[data-article-count]");
+const articleEmpty = document.querySelector("[data-article-empty]");
+
+if (articleCards.length) {
+  let activeCategory = "all";
+
+  const syncArticleFilters = () => {
+    const query = (articleSearch?.value || "").trim().toLowerCase();
+    const type = articleType?.value || "all";
+    const status = articleStatus?.value || "all";
+    let visibleCount = 0;
+
+    articleCards.forEach((card) => {
+      const category = card.dataset.category || "";
+      const cardType = card.dataset.type || "";
+      const cardStatus = card.dataset.status || "";
+      const keywords = `${card.textContent || ""} ${card.dataset.keywords || ""}`.toLowerCase();
+      const matchesCategory = activeCategory === "all" || category.includes(activeCategory);
+      const matchesType = type === "all" || cardType === type;
+      const matchesStatus = status === "all" || cardStatus === status;
+      const matchesQuery = !query || keywords.includes(query);
+      const isVisible = matchesCategory && matchesType && matchesStatus && matchesQuery;
+
+      card.hidden = !isVisible;
+      if (isVisible) visibleCount += 1;
+    });
+
+    if (articleCount) articleCount.textContent = `${visibleCount} ${visibleCount === 1 ? "article" : "articles"}`;
+    if (articleEmpty) articleEmpty.hidden = visibleCount !== 0;
+  };
+
+  articleCategoryButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      activeCategory = button.dataset.articleCategory || "all";
+      articleCategoryButtons.forEach((item) => item.classList.toggle("is-active", item === button));
+      syncArticleFilters();
+    });
+  });
+
+  articleSearch?.addEventListener("input", syncArticleFilters);
+  articleType?.addEventListener("change", syncArticleFilters);
+  articleStatus?.addEventListener("change", syncArticleFilters);
+  syncArticleFilters();
+}

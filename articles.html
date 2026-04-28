@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Articles | Mirwais Farahi</title>
-  <meta name="description" content="Articles and technical writing by Mirwais Farahi on modern software architecture, React, performance, security, and best practices.">
+  <meta name="description" content="Articles and technical writing by Mirwais Farahi across research, artificial intelligence, software development, design, architecture, cloud, and databases.">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@500;600&display=swap" rel="stylesheet">
@@ -13,74 +13,108 @@
   <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header"><nav class="navbar container" aria-label="Primary"><a class="brand" href="index.html"><span class="brand-mark">MF</span><span class="brand-text"><strong>Mirwais Farahi</strong><span>Data Scientist &amp; Researcher</span></span></a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Toggle navigation"><span></span><span></span><span></span></button><div class="nav-menu" id="site-menu"><ul class="nav-links"><li><a href="index.html" data-page="index">Home</a></li><li><a href="about.html" data-page="about">About</a></li><li><a href="projects.html" data-page="projects">Projects</a></li><li><a href="research.html" data-page="research">Research</a></li><li><a href="articles.html" data-page="articles">Articles</a></li><li><a href="skills.html" data-page="skills">Skills</a></li><li><a href="resume.html" data-page="resume">Resume</a></li><li><a href="contact.html" data-page="contact">Contact</a></li></ul></div></nav></header>
   <main id="main-content">
+    <section class="section article-hero">
+      <div class="container article-hero-grid">
+        <div class="article-hero-copy" data-reveal>
+          <p class="eyebrow">Articles and technical notes</p>
+          <h1>Writing library</h1>
+          <p class="lead">A curated index for research articles, AI notes, software development guides, design and architecture essays, cloud engineering, database topics, and practical implementation patterns.</p>
+        </div>
+        <aside class="article-stats" data-reveal aria-label="Article library summary">
+          <div><strong>8</strong><span>Drafts and planned articles</span></div>
+          <div><strong>7</strong><span>Topic areas</span></div>
+          <div><strong>3</strong><span>Content types</span></div>
+        </aside>
+      </div>
+    </section>
+    <section class="section section-muted">
+      <div class="container">
+        <article class="featured-article" data-reveal>
+          <div>
+            <p class="card-label">Featured draft</p>
+            <h2>React Architecture for Modern Applications: Performance, Security, and Best Practices</h2>
+            <p>A long-form software architecture article planned around scalable React application structure, rendering performance, security practices, data flow, testing, and maintainability.</p>
+            <div class="article-meta-row"><span>Software Development</span><span>Design and Architecture</span><span>Guide</span><span>Draft</span></div>
+          </div>
+          <a class="button button-primary" href="#articles-list">View in library</a>
+        </article>
+      </div>
+    </section>
     <section class="section">
       <div class="container">
-        <article class="article-shell" data-reveal>
-          <div class="article-header">
-            <p class="eyebrow">Article draft</p>
-            <h1>React Architecture for Modern Applications: Performance, Security, and Best Practices</h1>
-            <p class="lead">A structured outline for developing the article content chapter by chapter.</p>
-          </div>
-          <div class="article-layout">
-            <aside class="article-toc" aria-label="Article chapters">
-              <h2>Chapters</h2>
-              <ol>
-                <li><a href="#chapter-foundations">Architecture Foundations</a></li>
-                <li><a href="#chapter-performance">Performance Engineering</a></li>
-                <li><a href="#chapter-security">Security Practices</a></li>
-                <li><a href="#chapter-state">State and Data Flow</a></li>
-                <li><a href="#chapter-delivery">Testing, Delivery, and Maintenance</a></li>
-              </ol>
-            </aside>
-            <div class="article-chapters">
-              <section class="chapter-card" id="chapter-foundations">
-                <p class="card-label">Chapter 01</p>
-                <h2>Architecture Foundations</h2>
-                <div class="topic-grid">
-                  <article><h3>Application structure</h3><p>Notes for organizing pages, features, shared components, and domain boundaries.</p></article>
-                  <article><h3>Component design</h3><p>Notes for reusable components, composition, prop contracts, and interface clarity.</p></article>
-                  <article><h3>Routing strategy</h3><p>Notes for route layout, protected routes, nested views, and navigation patterns.</p></article>
-                </div>
-              </section>
-              <section class="chapter-card" id="chapter-performance">
-                <p class="card-label">Chapter 02</p>
-                <h2>Performance Engineering</h2>
-                <div class="topic-grid">
-                  <article><h3>Rendering behavior</h3><p>Notes for avoiding unnecessary renders and understanding React update patterns.</p></article>
-                  <article><h3>Code splitting</h3><p>Notes for lazy loading, route-based bundles, and reducing initial JavaScript cost.</p></article>
-                  <article><h3>Asset and data loading</h3><p>Notes for image optimization, caching, prefetching, and practical loading states.</p></article>
-                </div>
-              </section>
-              <section class="chapter-card" id="chapter-security">
-                <p class="card-label">Chapter 03</p>
-                <h2>Security Practices</h2>
-                <div class="topic-grid">
-                  <article><h3>Input and output safety</h3><p>Notes for validation, sanitization, escaping, and safe rendering of user content.</p></article>
-                  <article><h3>Authentication patterns</h3><p>Notes for session handling, token storage tradeoffs, and protected UI states.</p></article>
-                  <article><h3>Dependency risk</h3><p>Notes for package review, updates, audits, and reducing third-party exposure.</p></article>
-                </div>
-              </section>
-              <section class="chapter-card" id="chapter-state">
-                <p class="card-label">Chapter 04</p>
-                <h2>State and Data Flow</h2>
-                <div class="topic-grid">
-                  <article><h3>Local and shared state</h3><p>Notes for deciding where state belongs and when to introduce shared stores.</p></article>
-                  <article><h3>Server state</h3><p>Notes for fetching, caching, invalidation, optimistic updates, and error recovery.</p></article>
-                  <article><h3>Forms and validation</h3><p>Notes for form architecture, schema validation, accessibility, and user feedback.</p></article>
-                </div>
-              </section>
-              <section class="chapter-card" id="chapter-delivery">
-                <p class="card-label">Chapter 05</p>
-                <h2>Testing, Delivery, and Maintenance</h2>
-                <div class="topic-grid">
-                  <article><h3>Testing strategy</h3><p>Notes for unit, integration, accessibility, and end-to-end coverage.</p></article>
-                  <article><h3>Build and deployment</h3><p>Notes for environment configuration, CI checks, preview builds, and release hygiene.</p></article>
-                  <article><h3>Long-term maintainability</h3><p>Notes for documentation, refactoring signals, dependency updates, and team conventions.</p></article>
-                </div>
-              </section>
+        <div class="article-library" data-reveal>
+          <div class="article-toolbar">
+            <div class="article-search">
+              <label for="article-search-input">Search articles</label>
+              <input id="article-search-input" type="search" placeholder="Search by title, topic, or keyword" data-article-search>
+            </div>
+            <div class="article-selects">
+              <label>Type<select data-article-type><option value="all">All types</option><option value="Research Article">Research Article</option><option value="Technical Guide">Technical Guide</option><option value="Architecture Note">Architecture Note</option></select></label>
+              <label>Status<select data-article-status><option value="all">All statuses</option><option value="Draft">Draft</option><option value="Planned">Planned</option><option value="Outline">Outline</option></select></label>
             </div>
           </div>
-        </article>
+          <div class="article-filters" role="group" aria-label="Filter articles by category">
+            <button type="button" class="is-active" data-article-category="all">All</button>
+            <button type="button" data-article-category="Research">Research</button>
+            <button type="button" data-article-category="AI">AI</button>
+            <button type="button" data-article-category="Software Development">Software Development</button>
+            <button type="button" data-article-category="Design and Architecture">Design and Architecture</button>
+            <button type="button" data-article-category="Cloud">Cloud</button>
+            <button type="button" data-article-category="Database">Database</button>
+          </div>
+          <div class="article-results-meta"><span data-article-count>8 articles</span><span>Filter by category, type, status, or text search.</span></div>
+          <div class="article-list" id="articles-list">
+            <article class="article-card" data-article-card data-category="Software Development Design and Architecture" data-type="Technical Guide" data-status="Draft" data-keywords="react architecture performance security best practices state testing">
+              <div class="article-card-top"><span class="article-type">Technical Guide</span><span class="article-status">Draft</span></div>
+              <h2>React Architecture for Modern Applications: Performance, Security, and Best Practices</h2>
+              <p>Planned article covering application structure, rendering performance, security, state and data flow, testing, deployment, and long-term maintainability.</p>
+              <div class="article-topic-list"><span>React</span><span>Performance</span><span>Security</span><span>Architecture</span></div>
+            </article>
+            <article class="article-card" data-article-card data-category="Research" data-type="Research Article" data-status="Planned" data-keywords="research methods survey evaluation data quality evidence">
+              <div class="article-card-top"><span class="article-type">Research Article</span><span class="article-status">Planned</span></div>
+              <h2>Designing Reliable Research Data Pipelines for Evidence-Based Programs</h2>
+              <p>Placeholder for a research article on study design, data collection controls, quality checks, and analysis readiness.</p>
+              <div class="article-topic-list"><span>Research Methods</span><span>Data Quality</span><span>Evaluation</span></div>
+            </article>
+            <article class="article-card" data-article-card data-category="AI" data-type="Technical Guide" data-status="Planned" data-keywords="ai machine learning ml model evaluation responsible ai analytics">
+              <div class="article-card-top"><span class="article-type">Technical Guide</span><span class="article-status">Planned</span></div>
+              <h2>Practical AI Systems: From Model Experiments to Decision Support</h2>
+              <p>Placeholder for notes on model selection, evaluation, monitoring, human review, and applied decision workflows.</p>
+              <div class="article-topic-list"><span>AI</span><span>Machine Learning</span><span>Model Evaluation</span></div>
+            </article>
+            <article class="article-card" data-article-card data-category="Design and Architecture Software Development" data-type="Architecture Note" data-status="Outline" data-keywords="system design frontend architecture modular monolith microservices api">
+              <div class="article-card-top"><span class="article-type">Architecture Note</span><span class="article-status">Outline</span></div>
+              <h2>Choosing Architecture Boundaries in Frontend and Full-Stack Systems</h2>
+              <p>Placeholder for architectural tradeoffs around feature boundaries, APIs, shared modules, and scaling teams.</p>
+              <div class="article-topic-list"><span>System Design</span><span>Frontend</span><span>APIs</span></div>
+            </article>
+            <article class="article-card" data-article-card data-category="Cloud" data-type="Technical Guide" data-status="Planned" data-keywords="cloud deployment scalability observability cost reliability ci cd">
+              <div class="article-card-top"><span class="article-type">Technical Guide</span><span class="article-status">Planned</span></div>
+              <h2>Cloud-Native Delivery for Data and Web Applications</h2>
+              <p>Placeholder for deployment, observability, scaling, environment management, cost control, and release operations.</p>
+              <div class="article-topic-list"><span>Cloud</span><span>Deployment</span><span>Reliability</span></div>
+            </article>
+            <article class="article-card" data-article-card data-category="Database" data-type="Technical Guide" data-status="Planned" data-keywords="database sql modeling performance indexing analytics data warehouse">
+              <div class="article-card-top"><span class="article-type">Technical Guide</span><span class="article-status">Planned</span></div>
+              <h2>Database Design for Analytics-Ready Applications</h2>
+              <p>Placeholder for schema design, indexing, query performance, reporting models, and analytical data structures.</p>
+              <div class="article-topic-list"><span>SQL</span><span>Data Modeling</span><span>Analytics</span></div>
+            </article>
+            <article class="article-card" data-article-card data-category="Software Development" data-type="Technical Guide" data-status="Outline" data-keywords="testing quality ci code review maintainability documentation">
+              <div class="article-card-top"><span class="article-type">Technical Guide</span><span class="article-status">Outline</span></div>
+              <h2>Engineering Quality: Testing, Reviews, and Maintainable Delivery</h2>
+              <p>Placeholder for practical delivery practices across automated tests, review culture, documentation, and release checks.</p>
+              <div class="article-topic-list"><span>Testing</span><span>Code Review</span><span>Quality</span></div>
+            </article>
+            <article class="article-card" data-article-card data-category="AI Research" data-type="Research Article" data-status="Planned" data-keywords="ai research evaluation surveys analytics impact governance">
+              <div class="article-card-top"><span class="article-type">Research Article</span><span class="article-status">Planned</span></div>
+              <h2>Evaluating AI Impact in Research and Operational Programs</h2>
+              <p>Placeholder for a research-style article on measuring AI adoption, usefulness, risk, and program-level outcomes.</p>
+              <div class="article-topic-list"><span>AI Research</span><span>Evaluation</span><span>Governance</span></div>
+            </article>
+          </div>
+          <p class="article-empty" data-article-empty hidden>No articles match the current filters.</p>
+        </div>
       </div>
     </section>
   </main>
