@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#edf3f8"/><rect x="36" y="36" width="568" height="288" rx="28" fill="#10222d"/>
+  <rect x="86" y="102" width="92" height="156" rx="18" fill="#0f8c8c"/><rect x="206" y="148" width="92" height="110" rx="18" fill="#1ba6a6"/><rect x="326" y="126" width="92" height="132" rx="18" fill="#3ab5cf"/><rect x="446" y="82" width="92" height="176" rx="18" fill="#7ac9d8"/>
+  <text x="86" y="84" fill="#ffffff" font-family="IBM Plex Sans, Arial, sans-serif" font-size="26" font-weight="700">Business Intelligence Dashboard</text>
+</svg>

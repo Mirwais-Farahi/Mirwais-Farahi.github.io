@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f4f8f9"/><rect x="60" y="60" width="1080" height="510" rx="42" fill="#10222d"/>
+  <g fill="none" stroke="rgba(115,210,203,0.18)"><path d="M120 160h960"/><path d="M120 240h960"/><path d="M120 320h960"/><path d="M120 400h960"/><path d="M240 120v390"/><path d="M420 120v390"/><path d="M600 120v390"/><path d="M780 120v390"/><path d="M960 120v390"/></g>
+  <text x="120" y="218" fill="#73d2cb" font-family="IBM Plex Sans, Arial, sans-serif" font-size="32" font-weight="700">Data Scientist | Researcher | Analytics &amp; AI Professional</text>
+  <text x="120" y="308" fill="#ffffff" font-family="IBM Plex Serif, Georgia, serif" font-size="78" font-weight="600">Mirwais Farahi</text>
+  <text x="120" y="390" fill="#cbd8df" font-family="IBM Plex Sans, Arial, sans-serif" font-size="30">Portfolio covering research, machine learning, BI, analytics, and technical leadership.</text>
+</svg>

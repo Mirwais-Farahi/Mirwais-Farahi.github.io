@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#eef6f6"/><rect x="36" y="36" width="568" height="288" rx="28" fill="#112734"/>
+  <g fill="none" stroke="#39b6b1" stroke-width="3"><path d="M92 252L176 210L258 224L344 156L432 178L512 108" stroke-linecap="round" stroke-linejoin="round"/><path d="M92 276H544"/><path d="M92 120V276"/></g>
+  <g fill="#d5f4f0"><circle cx="176" cy="210" r="8"/><circle cx="258" cy="224" r="8"/><circle cx="344" cy="156" r="8"/><circle cx="432" cy="178" r="8"/><circle cx="512" cy="108" r="8"/></g>
+  <text x="92" y="88" fill="#ffffff" font-family="IBM Plex Sans, Arial, sans-serif" font-size="26" font-weight="700">Machine Learning Project</text>
+</svg>
