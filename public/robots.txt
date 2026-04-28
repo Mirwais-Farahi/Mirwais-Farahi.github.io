@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://mirwais-farahi.github.io/sitemap-index.xml
