@@ -13,111 +13,26 @@
   <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header"><nav class="navbar container" aria-label="Primary"><a class="brand" href="index.html"><span class="brand-mark">MF</span><span class="brand-text"><strong>Mirwais Farahi</strong><span>Data Scientist &amp; Researcher</span></span></a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Toggle navigation"><span></span><span></span><span></span></button><div class="nav-menu" id="site-menu"><ul class="nav-links"><li><a href="index.html" data-page="index">Home</a></li><li><a href="about.html" data-page="about">About</a></li><li><a href="projects.html" data-page="projects">Projects</a></li><li><a href="research.html" data-page="research">Research</a></li><li><a href="articles.html" data-page="articles">Articles</a></li><li><a href="skills.html" data-page="skills">Skills</a></li><li><a href="resume.html" data-page="resume">Resume</a></li><li><a href="contact.html" data-page="contact">Contact</a></li></ul></div></nav></header>
   <main id="main-content">
-    <section class="section article-hero">
-      <div class="container article-hero-grid">
-        <div class="article-hero-copy" data-reveal>
-          <p class="eyebrow">Articles and technical notes</p>
-          <h1>Writing library</h1>
-          <p class="lead">A curated index for research articles, AI notes, software development guides, design and architecture essays, cloud engineering, database topics, and practical implementation patterns.</p>
+  <section class="section">
+    <div class="container">
+      <div class="section-heading" data-reveal><p class="eyebrow">Articles</p><h2>Notes and writing</h2><p>A small library for future articles on research, analytics, data quality, and practical AI.</p></div>
+      <div class="article-library" data-reveal>
+        <div class="article-toolbar">
+          <div class="article-search"><label for="article-search-input">Search</label><input id="article-search-input" type="search" placeholder="Search articles" data-article-search></div>
+          <div class="article-selects"><label>Status<select data-article-status><option value="all">All statuses</option><option value="Draft">Draft</option><option value="Planned">Planned</option><option value="Outline">Outline</option></select></label></div>
         </div>
-        <aside class="article-stats" data-reveal aria-label="Article library summary">
-          <div><strong>8</strong><span>Drafts and planned articles</span></div>
-          <div><strong>7</strong><span>Topic areas</span></div>
-          <div><strong>3</strong><span>Content types</span></div>
-        </aside>
-      </div>
-    </section>
-    <section class="section section-muted">
-      <div class="container">
-        <article class="featured-article" data-reveal>
-          <div>
-            <p class="card-label">Featured draft</p>
-            <h2>React Architecture for Modern Applications: Performance, Security, and Best Practices</h2>
-            <p>A long-form software architecture article planned around scalable React application structure, rendering performance, security practices, data flow, testing, and maintainability.</p>
-            <div class="article-meta-row"><span>Software Development</span><span>Design and Architecture</span><span>Guide</span><span>Draft</span></div>
-          </div>
-          <a class="button button-primary" href="#articles-list">View in library</a>
-        </article>
-      </div>
-    </section>
-    <section class="section">
-      <div class="container">
-        <div class="article-library" data-reveal>
-          <div class="article-toolbar">
-            <div class="article-search">
-              <label for="article-search-input">Search articles</label>
-              <input id="article-search-input" type="search" placeholder="Search by title, topic, or keyword" data-article-search>
-            </div>
-            <div class="article-selects">
-              <label>Type<select data-article-type><option value="all">All types</option><option value="Research Article">Research Article</option><option value="Technical Guide">Technical Guide</option><option value="Architecture Note">Architecture Note</option></select></label>
-              <label>Status<select data-article-status><option value="all">All statuses</option><option value="Draft">Draft</option><option value="Planned">Planned</option><option value="Outline">Outline</option></select></label>
-            </div>
-          </div>
-          <div class="article-filters" role="group" aria-label="Filter articles by category">
-            <button type="button" class="is-active" data-article-category="all">All</button>
-            <button type="button" data-article-category="Research">Research</button>
-            <button type="button" data-article-category="AI">AI</button>
-            <button type="button" data-article-category="Software Development">Software Development</button>
-            <button type="button" data-article-category="Design and Architecture">Design and Architecture</button>
-            <button type="button" data-article-category="Cloud">Cloud</button>
-            <button type="button" data-article-category="Database">Database</button>
-          </div>
-          <div class="article-results-meta"><span data-article-count>8 articles</span><span>Filter by category, type, status, or text search.</span></div>
-          <div class="article-list" id="articles-list">
-            <article class="article-card" data-article-card data-category="Software Development Design and Architecture" data-type="Technical Guide" data-status="Draft" data-keywords="react architecture performance security best practices state testing">
-              <div class="article-card-top"><span class="article-type">Technical Guide</span><span class="article-status">Draft</span></div>
-              <h2>React Architecture for Modern Applications: Performance, Security, and Best Practices</h2>
-              <p>Planned article covering application structure, rendering performance, security, state and data flow, testing, deployment, and long-term maintainability.</p>
-              <div class="article-topic-list"><span>React</span><span>Performance</span><span>Security</span><span>Architecture</span></div>
-            </article>
-            <article class="article-card" data-article-card data-category="Research" data-type="Research Article" data-status="Planned" data-keywords="research methods survey evaluation data quality evidence">
-              <div class="article-card-top"><span class="article-type">Research Article</span><span class="article-status">Planned</span></div>
-              <h2>Designing Reliable Research Data Pipelines for Evidence-Based Programs</h2>
-              <p>Placeholder for a research article on study design, data collection controls, quality checks, and analysis readiness.</p>
-              <div class="article-topic-list"><span>Research Methods</span><span>Data Quality</span><span>Evaluation</span></div>
-            </article>
-            <article class="article-card" data-article-card data-category="AI" data-type="Technical Guide" data-status="Planned" data-keywords="ai machine learning ml model evaluation responsible ai analytics">
-              <div class="article-card-top"><span class="article-type">Technical Guide</span><span class="article-status">Planned</span></div>
-              <h2>Practical AI Systems: From Model Experiments to Decision Support</h2>
-              <p>Placeholder for notes on model selection, evaluation, monitoring, human review, and applied decision workflows.</p>
-              <div class="article-topic-list"><span>AI</span><span>Machine Learning</span><span>Model Evaluation</span></div>
-            </article>
-            <article class="article-card" data-article-card data-category="Design and Architecture Software Development" data-type="Architecture Note" data-status="Outline" data-keywords="system design frontend architecture modular monolith microservices api">
-              <div class="article-card-top"><span class="article-type">Architecture Note</span><span class="article-status">Outline</span></div>
-              <h2>Choosing Architecture Boundaries in Frontend and Full-Stack Systems</h2>
-              <p>Placeholder for architectural tradeoffs around feature boundaries, APIs, shared modules, and scaling teams.</p>
-              <div class="article-topic-list"><span>System Design</span><span>Frontend</span><span>APIs</span></div>
-            </article>
-            <article class="article-card" data-article-card data-category="Cloud" data-type="Technical Guide" data-status="Planned" data-keywords="cloud deployment scalability observability cost reliability ci cd">
-              <div class="article-card-top"><span class="article-type">Technical Guide</span><span class="article-status">Planned</span></div>
-              <h2>Cloud-Native Delivery for Data and Web Applications</h2>
-              <p>Placeholder for deployment, observability, scaling, environment management, cost control, and release operations.</p>
-              <div class="article-topic-list"><span>Cloud</span><span>Deployment</span><span>Reliability</span></div>
-            </article>
-            <article class="article-card" data-article-card data-category="Database" data-type="Technical Guide" data-status="Planned" data-keywords="database sql modeling performance indexing analytics data warehouse">
-              <div class="article-card-top"><span class="article-type">Technical Guide</span><span class="article-status">Planned</span></div>
-              <h2>Database Design for Analytics-Ready Applications</h2>
-              <p>Placeholder for schema design, indexing, query performance, reporting models, and analytical data structures.</p>
-              <div class="article-topic-list"><span>SQL</span><span>Data Modeling</span><span>Analytics</span></div>
-            </article>
-            <article class="article-card" data-article-card data-category="Software Development" data-type="Technical Guide" data-status="Outline" data-keywords="testing quality ci code review maintainability documentation">
-              <div class="article-card-top"><span class="article-type">Technical Guide</span><span class="article-status">Outline</span></div>
-              <h2>Engineering Quality: Testing, Reviews, and Maintainable Delivery</h2>
-              <p>Placeholder for practical delivery practices across automated tests, review culture, documentation, and release checks.</p>
-              <div class="article-topic-list"><span>Testing</span><span>Code Review</span><span>Quality</span></div>
-            </article>
-            <article class="article-card" data-article-card data-category="AI Research" data-type="Research Article" data-status="Planned" data-keywords="ai research evaluation surveys analytics impact governance">
-              <div class="article-card-top"><span class="article-type">Research Article</span><span class="article-status">Planned</span></div>
-              <h2>Evaluating AI Impact in Research and Operational Programs</h2>
-              <p>Placeholder for a research-style article on measuring AI adoption, usefulness, risk, and program-level outcomes.</p>
-              <div class="article-topic-list"><span>AI Research</span><span>Evaluation</span><span>Governance</span></div>
-            </article>
-          </div>
-          <p class="article-empty" data-article-empty hidden>No articles match the current filters.</p>
+        <div class="article-results-meta"><span data-article-count>4 articles</span></div>
+        <div class="article-list" id="articles-list">
+          <article class="article-card" data-article-card data-category="Research" data-type="Research Article" data-status="Planned" data-keywords="research survey evaluation data quality"><div class="article-card-top"><span class="article-type">Research</span><span class="article-status">Planned</span></div><h2>Designing Reliable Research Data Pipelines</h2><p>Study design, controls, cleaning, and analysis readiness.</p></article>
+          <article class="article-card" data-article-card data-category="AI" data-type="Technical Guide" data-status="Planned" data-keywords="ai machine learning evaluation analytics"><div class="article-card-top"><span class="article-type">AI</span><span class="article-status">Planned</span></div><h2>Practical AI for Decision Support</h2><p>Model selection, review, monitoring, and responsible use.</p></article>
+          <article class="article-card" data-article-card data-category="Database" data-type="Technical Guide" data-status="Outline" data-keywords="database sql data modeling analytics"><div class="article-card-top"><span class="article-type">Data</span><span class="article-status">Outline</span></div><h2>Analytics-Ready Data Design</h2><p>Clean structures for reporting and analysis.</p></article>
+          <article class="article-card" data-article-card data-category="Software Development" data-type="Technical Guide" data-status="Draft" data-keywords="dashboard quality reporting"><div class="article-card-top"><span class="article-type">Guide</span><span class="article-status">Draft</span></div><h2>Building Useful Dashboards</h2><p>KPIs, layout, review habits, and stakeholder use.</p></article>
         </div>
+        <p class="article-empty" data-article-empty hidden>No articles match the current filters.</p>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
+</main>
   <footer class="site-footer"><div class="container footer-grid"><div><p class="footer-kicker">Articles</p><a class="brand" href="index.html"><span class="brand-mark">MF</span><span class="brand-text"><strong>Mirwais Farahi</strong><span>Data Scientist &amp; Researcher</span></span></a><p class="muted">Technical writing and structured notes on software, analytics, and modern application practice.</p><button class="theme-toggle footer-theme-toggle" type="button" aria-label="Toggle color theme"><span class="theme-toggle-light">Light</span><span class="theme-toggle-dark">Dark</span></button></div><div><h2 class="footer-title">Explore</h2><ul class="footer-links"><li><a href="projects.html">Projects</a></li><li><a href="research.html">Research</a></li><li><a href="skills.html">Skills</a></li></ul></div><div><h2 class="footer-title">Resources</h2><ul class="footer-links"><li><a href="resume.html">Resume Overview</a></li><li><a href="assets/docs/mirwais-farahi-cv.pdf" download>Download CV</a></li><li><a href="contact.html">Contact</a></li></ul></div></div></footer>
   <button class="back-to-top" type="button" aria-label="Back to top">Top</button><script src="assets/js/main.js" defer></script>
 </body>
