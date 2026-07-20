@@ -157,6 +157,35 @@ body:not([data-page="index"]) main > .section:first-child { padding-top: 2.75rem
   padding: 0.95rem 0 0;
   max-width: 42rem;
 }
+.profile-description {
+  max-width: 760px;
+  display: grid;
+  gap: 1.1rem;
+}
+.profile-description p {
+  font-size: 1.02rem;
+}
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2.2rem;
+}
+.social-links a {
+  width: 2.75rem;
+  height: 2.75rem;
+  display: grid;
+  place-items: center;
+  border-radius: 5px;
+  background: var(--accent2);
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+.social-links a:hover {
+  background: var(--accent);
+}
 html[data-theme="dark"] .hero-summary-card {
   background: none;
 }
@@ -367,6 +396,33 @@ html[data-theme="dark"] .project-entry {
 }
 .project-contribution p {
   font-size: 0.88rem;
+}
+.github-project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.2rem 2.8rem;
+  padding-top: 0.6rem;
+}
+.github-project-card {
+  min-width: 0;
+}
+.github-project-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  object-position: left center;
+  margin-bottom: 1rem;
+}
+.github-project-card h3 {
+  margin-bottom: 0.45rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--text);
+}
+.github-project-card p {
+  max-width: 18rem;
+  font-size: 1rem;
 }
 .publication-list { display: grid; gap: 0; border-top: 1px solid var(--line); }
 .publication-item { display: grid; grid-template-columns: 110px 1fr auto; gap: 1rem; align-items: start; padding: 0.85rem 0; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; }
@@ -643,6 +699,8 @@ p + .cta-actions { margin-top: 1rem; }
     background: var(--accent-soft);
   }
   .hero-grid, .page-hero-grid, .grid-4, .grid-3, .project-grid, .timeline-grid, .journey-grid, .two-col, .project-detail, .skill-grid, .resume-layout, .contact-layout, .footer-grid, .detail-cols, .hero-metrics, .featured-project, .publication-item, .contact-card.compact, .experience-columns, .project-category, .project-entry-grid, .home-highlight-grid, .article-hero-grid, .article-toolbar, .article-list { grid-template-columns: 1fr; }
+  .github-project-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .github-project-card img { height: 130px; }
   .featured-article { display: grid; }
   .article-selects { flex-wrap: wrap; }
   .article-results-meta { display: grid; }
